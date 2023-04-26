@@ -129,6 +129,12 @@ The "%d" string tells scanf to read input that represents an integer; value is a
 
 ## Section 2.6
 
+![fah2cel](https://user-images.githubusercontent.com/59415488/234675186-1379b6d6-535d-44d6-902f-c8084f1274cb.png)
+
 Macro definitions can name constants.  Using the #define preprocessing directive, constants are given names.  When a program is compiled, the preprocessor replaces each macro by the constant the macro represents. 
 
 > A convention used by C programmers is to use all upper-case letters as variable names of macros.
+
+## Section 2.7
+
+The names of variables are identifiers.  In C, an identifier may contain letters, digits, and must begin with a letter or underscore.  In C, identifiers are case-sensitive.  C places no limit on the maximum length of an identifier.
