@@ -3,6 +3,8 @@
 ## Section 2.1
 ### pun.c
 
+![pun](https://user-images.githubusercontent.com/59415488/234639614-fd67de84-f808-4061-ad4e-43da9b8a66de.png)
+
 In section 2.1, the goal is to find an IDE and properly preprocess, compile, and link a simple program. <br />
 + Preprocessing: The program is first given to a preprocessor, which obeys commands that begin with a directive, ie #include.
 + Compiling:  The compiler translates the program into machine instructions, object code.
@@ -15,8 +17,6 @@ There are Linux-Compatible Environments and Compilers available.
 * For Windows: Install Linux with WSL
 * Apple macOS/OSX is based on the BSD version of UNIX; however, often developers use the Homebrew tool to install additional Linux-style utilities.
 -------
-
-![pun](https://user-images.githubusercontent.com/59415488/234639614-fd67de84-f808-4061-ad4e-43da9b8a66de.png)
 
 ## Section 2.2
 ### Directives
@@ -39,6 +39,7 @@ A main function is required as part of any C program.  The main function returns
 
 A statement is a command to be executed when the program runs.  C requires each statement end with a semicolon. <br />
 
+## Section 2.3
 ### Comments
 
 In C, information meant for documentation is placed in comments.  In C, comments are place betwent /*  and  */, and the comments can span multiple lines.
@@ -55,3 +56,30 @@ Single line comments follow //
 ```C
 // This is a comment.
 ```
+
+## Section 2.4
+### dweight.c
+
+![dweight](https://user-images.githubusercontent.com/59415488/234651899-b61d2312-b505-4dff-99f6-95c9310aab6f.png)
+
+### Types
+
+In C, data is used to perform a series of calculations to produce an output.  This data is temporarily stored in storage locations identified by variables.  Every variable must have a type which specifies the kind of data held in the variable.  The type of a numeric variable determines the largest and smallest numbers that the variable can store. <br />
+
+### Declarations
+
+Variables must be declared before a C program performs an operation on said variable. To declare a variable, specify the type of the variable then specify the name of the variable.
+
+### Assignment
+
+A variable can be given a value by means of assignment.  Before a variable can be assigned a value, the variable must be declared.  In general, the right side of an assignment can be an expression involving constants, variables, and operators.
+
+### Initialization
+
+A variable that doesn't have a default value and hasn't yet been assigned a value bythe program is uninitialized.  A variable can be given an initial value by using assignment.  This assignment can happen at declaration.
+
+```C
+int height = 8;
+```
+
+In C, the value of 8 is an initializer of int height.
