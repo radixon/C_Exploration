@@ -1,14 +1,16 @@
 # C_Exploration
-A Modern Approach to C Programming
+## C Programming: A Modern Approach Second Edition
+## K.N. King
 
-# pun.c
 
-A fun way to implement "Hello, World."  Hence, nothing special.  Just prints text onto the screen.
+## Chapter 2 - C FUNDAMENTALS
++ SECTION 2.1 - Writing a Simple Program
++ SECTION 2.2 - The General Form of a Simple Program
++ SECTION 2.3 - Comments
++ SECTION 2.4 - Variables and Assignment
++ SECTION 2.5 - Reading Input
++ SECTION 2.6 - Defining Names for Constants
++ SECTION 2.7 - Identifiers
++ SECTION 2.8 - Layout of a C Program
 
-# dweight.c
 
-Computes the dimensional weight of a box.
-
-# upc.c
-
-Computes a UPC check digit.
