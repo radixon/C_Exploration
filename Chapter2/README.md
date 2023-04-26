@@ -60,7 +60,7 @@ Single line comments follow //
 ## Section 2.4
 ### dweight.c
 
-![dweight](https://user-images.githubusercontent.com/59415488/234651899-b61d2312-b505-4dff-99f6-95c9310aab6f.png)
+![dweight](https://user-images.githubusercontent.com/59415488/234664229-c5744320-90ab-47ec-b35c-4d10cc6385c6.png)
 
 ### Types
 
