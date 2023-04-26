@@ -26,6 +26,6 @@
         printf("Volume (cubic inches): %d\n", volume);
         printf("Dimensional weight (pounds): %d\n", weight);
         
-        // Return Statement
+        // main function status code return
         return 0;
     }
