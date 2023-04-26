@@ -50,7 +50,7 @@ In C, information meant for documentation is placed in comments.  In C, comments
 */
 ```
 
-Single lin comments follow //
+Single line comments follow //
 
 ```C
 // This is a comment.
