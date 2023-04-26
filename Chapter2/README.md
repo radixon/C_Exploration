@@ -35,9 +35,20 @@ Functions are the building blocks from which programs are constructed.  Function
 
 A main function is required as part of any C program.  The main function returns a status code that is given to the operating system when the program terminates.<br />
 
+```C
+int main(void){
+  
+  return 0;
+}
+```
+
 ### Statements
 
 A statement is a command to be executed when the program runs.  C requires each statement end with a semicolon. <br />
+
+```C
+num = 4 * 5 + 6 - 7 / 9^10;
+```
 
 ## Section 2.3
 ### Comments
