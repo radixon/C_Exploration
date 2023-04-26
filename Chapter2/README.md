@@ -66,13 +66,29 @@ Single line comments follow //
 
 In C, data is used to perform a series of calculations to produce an output.  This data is temporarily stored in storage locations identified by variables.  Every variable must have a type which specifies the kind of data held in the variable.  The type of a numeric variable determines the largest and smallest numbers that the variable can store. <br />
 
+```C
+// int is the type of the variable value
+int value;
+
+// float is the type of the variable num
+float num;
+```
+
 ### Declarations
 
 Variables must be declared before a C program performs an operation on said variable. To declare a variable, specify the type of the variable then specify the name of the variable.
 
+```C
+int height;
+```
+
 ### Assignment
 
 A variable can be given a value by means of assignment.  Before a variable can be assigned a value, the variable must be declared.  In general, the right side of an assignment can be an expression involving constants, variables, and operators.
+
+```C
+height = 8;
+```
 
 ### Initialization
 
