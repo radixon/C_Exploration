@@ -1,6 +1,6 @@
 /*  Name:       dweight2.c
  *  Purpose:    Calculate volume from height, length, and width values from input read in from users.
- *  Lesson:     Chapter 2 Section 2 of K.N. King C Programming: A Modern Approach
+ *  Lesson:     Chapter 2 of K.N. King C Programming: A Modern Approach
 */
 
     #include <stdio.h>
