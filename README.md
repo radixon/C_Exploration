@@ -13,4 +13,13 @@
 + SECTION 2.7 - Identifiers
 + SECTION 2.8 - Layout of a C Program
 
+## Chapter 3 - FORMATTED INPUT/OUTPUT
++ SECTION 3.1 - The printf Function
++ SECTION 3.2 - The scanf Function
 
+## Chapter 4 - EXPRESSIONS
++ SECTION 4.1 - Arithmetic Operators
++ SECTION 4.2 - Assignment Operators
++ SECTION 4.3 - Increment and Decrement Operators
++ SECTION 4.4 - Expression Evaluation
++ SECTION 4.5 - Expression Statements
