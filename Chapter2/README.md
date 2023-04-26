@@ -44,7 +44,8 @@ A statement is a command to be executed when the program runs.  C requires each 
 In C, information meant for documentation is placed in comments.  In C, comments are place betwent /*  and  */, and the comments can span multiple lines.
 
 ```C
-/*  This is
+/*  
+    This is
     a comment.
 */
 ```
