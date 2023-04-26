@@ -21,7 +21,7 @@ There are Linux-Compatible Environments and Compilers available.
 ## Section 2.2
 ### Directives
 
-Before a C program is compiled, the program is edited by a preprocessor.  Commands inteded for the preprocessor are directives. <br />
+Before a C program is compiled, the program is edited by a preprocessor.  Commands intended for the preprocessor are directives. <br />
 
 ```C
   #include <stdio.h>
