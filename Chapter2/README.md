@@ -110,3 +110,25 @@ int height = 8;
 ```
 
 In C, the value of 8 is an initializer of int height.
+
+## Section 2.5
+### dweight2.c
+![dweight2](https://user-images.githubusercontent.com/59415488/234666921-620b5f1e-1fe4-41f9-baed-7181886e4f1a.png)
+
+To obtain input from an user, us C library's scanf function.  The f in scanf stands for "formatted."  scanf requires the use of a format string to specify the appearance of the input or output data.  Hence, scanf needs to know the form of the input data.
+
+```C
+// To read an int value
+scanf("%d", &value);
+
+// To read a float value
+scanf("%f", &num);
+```
+
+The "%d" string tells scanf to read input that represents an integer; value is an int variable into which scanf is to store the input.  The "%f" string tells scanf to read input that represents a float; num is a float variable into which scanf is to store the input.
+
+## Section 2.6
+
+Macro definitions can name constants.  Using the #define preprocessing directive, constants are given names.  When a program is compiled, the preprocessor replaces each macro by the constant the macro represents. 
+
+> A convention used by C programmers is to use all upper-case letters as variable names of macros.
