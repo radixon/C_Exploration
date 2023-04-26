@@ -3,8 +3,10 @@
  *  Lesson:     Chapter 2 of K.N. King C Programming: A Modern Approach
 */
 
-    // Directives
+    // Directive
     #include <stdio.h>
+
+    // macro definition...also a Directive
     #define INCHES_PER_POUND 166
 
     // Function
