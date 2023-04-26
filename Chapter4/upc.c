@@ -1,6 +1,6 @@
 /*  Name:       upc.c
  *  Purpose:    Calculate the check digit of a UPC
- *  Lesson:     Chapter 4 Section 1 K.N. King C Programming: A Modern Approac
+ *  Lesson:     Chapter 4 K.N. King C Programming: A Modern Approac
  * 
  *  Step 1:     Add the first, third, fifth, seventh, ninth, and eleventh digits
  *  Step 2:     Add the second, fourth, sixth, eigth, and tenth digits
