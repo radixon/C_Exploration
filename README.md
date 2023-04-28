@@ -23,3 +23,8 @@
 + SECTION 4.3 - Increment and Decrement Operators
 + SECTION 4.4 - Expression Evaluation
 + SECTION 4.5 - Expression Statements
+
+## Chapter 5 - SELECTION STATEMENTS
++ SECTION 5.1 - Logical Expressions
++ SECTION 5.2 - The if Statement
++ SECTION 5.3 - The switch Statement
