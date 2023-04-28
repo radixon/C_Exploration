@@ -30,6 +30,7 @@ Carriage Return | \r
 Horizontal Tab | \t
 Vertical Tab | \v
 Backslash | \\
-Question Mark | \?
-Single Quoted | \'
-Double Quote | \"
+Question Mark | \*?
+Single Quoted | \*'
+Double Quote | \*"
+**NOTE** | * Represents \
