@@ -1,5 +1,6 @@
 # Chapter 3
 ## Section 3.1 
+![addfrac](https://user-images.githubusercontent.com/59415488/235043299-ba30f3fb-3e0e-488d-a3b6-8f3ce9534c52.png)
 
 scanf and printf support formatted reading and writing.  The printf function is designed to display the contents of a string, format strinig, with values possibly inserted at specific points in the string.  printf must be supplied with the format string, followed by any values that are to be inserted into the string during printing. <br />
 
