@@ -29,7 +29,7 @@ New Line | \n
 Carriage Return | \r
 Horizontal Tab | \t
 Vertical Tab | \v
-Backslash | \\
+Backslash | *\\
 Question Mark | \*?
 Single Quoted | \*'
 Double Quote | \*"
