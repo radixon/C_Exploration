@@ -32,3 +32,16 @@ Question Mark | \*?
 Single Quoted | \*'
 Double Quote | \*"
 **NOTE** | * Represents \
+
+
+## Section 3.2
+
+A scanf format string may contain both ordinary characters and conversion specifications.
+
+```C
+scanf("%d%d%f%f", &i, &j, &x, &y);
+```
+
+scanf will read the line, convert the characters into the numbers the characters represent, and assign the number values to i, j, x, and y, respectively.  When using scanf, the programmer must check that the number of conversion specifications matches the number of input variables and that each conversion is appropriate for the corresponding variable, the compiler is not required to check for a possible mismatch.
+
+scanf behaves as a pattern-matching function that tries to match groups of input characters with conversion specifications.  When asked to read an integer, scanf searches for a digit, a plus sign, or a minus sign.  scanf then reads digits until it reaches a nondigit.
