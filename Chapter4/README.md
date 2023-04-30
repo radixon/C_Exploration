@@ -1,5 +1,6 @@
 # Chapter 4
 ## Section 4.1
+![upc](https://user-images.githubusercontent.com/59415488/235332737-7f625ffc-a9a1-4fda-800d-75477f35bb29.png)
 
 The arithmetic operators perform addition, subtraction, multiplication, and division.  The additive and multiplicative operators are binary, as these operators require two operands.  The unary operators require one operand.  The modulo operator, %, is a multiplicative operator that allows integer operands only.  All other binary operators allow either integer or floating-point operands with mixing allowed.  When int and float operads are mixed, the result has type float. <br />
 
