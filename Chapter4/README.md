@@ -51,3 +51,17 @@ The compound assignment operators are right associative.  In C, there are nine c
 + |=
 
 
+## Section 4.3
+
+C allows using ++ for increment, and -- for decrement operators.  The increment and decrement operators can be used as prefix or postfix operators.  The prefix operators evaluates immediately.  The postfix operators evaluates after the expression is executed.  For example,
+```C
+// Given the following:
+i = 1;
+j = 2;
+k = ++i + j++;
+
+// k restated
+i = i + 1;
+k = i + j;
+j = j + 1;
+```
