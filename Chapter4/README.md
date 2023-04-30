@@ -65,3 +65,11 @@ i = i + 1;
 k = i + j;
 j = j + 1;
 ```
+
+  ## Section 4.4
+  
+  Any C expression can be broken into subexpressions using the rules of operator precedence and associativity.  C doesn't define the order in which subexpressions are evaluated.  Most expressions have the same value regardless of the order in which subexpressions are evaluated.  However, this is not true when a subexpression modifies an operand.
+  
+## Section 4.5
+  
+  Any expression in C can be turned into a statement by appending a semicolon.
