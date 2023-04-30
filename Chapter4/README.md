@@ -6,7 +6,8 @@ The arithmetic operators perform addition, subtraction, multiplication, and divi
 ----
 The C standard deliberatly leaves parts of the language unspecified, with the understanding that an "implementation" will fill in the details.  As a result, the behavior of the program may vary somewhat from one implementation to another.
 
-The behavior described is Implementation-Defined Behavior
+The behavior described is Implementation-Defined Behavior 
+
 ----
 <br />
 C uses operator precedence rules to resolve the potential ambiguity of expressions with more than one operator.  The arithmetic operators have the following relative precedence:<br />
