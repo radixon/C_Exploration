@@ -11,5 +11,5 @@ The behavior described is Implementation-Defined Behavior
 <br />
 C uses operator precedence rules to resolve the potential ambiguity of expressions with more than one operator.  The arithmetic operators have the following relative precedence:<br />
 Highest: <t/> + - (unary) <br />
-<\t> * / %  <br />
-Lowest:  <\t> + - (binary) <br />
+<t/><t/><t/> * / %  <br />
+Lowest:  <t/> + - (binary) <br />
