@@ -15,3 +15,39 @@ C uses operator precedence rules to resolve the potential ambiguity of expressio
 Highest: <t /> + - (unary) <br />
 <t> * / %  <t/><br />
 Lowest:  <t /> + - (binary) <br />
+
+## Section 4.2
+
+C's assignment operator, =, is used to store the value of a computed expression in a variable.  The effect of the simple assignment v = e is to evaluate the expression e and copy the value of e into v.  e can be a constant, a variable, or a more complicated expression as the following examples show:
+```C
+i = 5;
+j = i;
+k = i * j / 2.5;
+```
+
+In C, assignment is an operator.  Restated, the act of assignment produces a result.  The value of an assignment v = e is the value of v after the assignment.
+```C
+// The value of i = 72 after the following assignment
+int i;
+i = 72.99f;
+```
+
+The assignment operator, =, is right associative, so several assignments can be chained together.  In general, an assignment of the form v = e is allowed wherever a value of type v would be permitted.
+```C
+i = j = k = 0;
+```
+
+The assignment operator requires an lvalue as the operator's left operand.  An lvalue represents an object stored in computer memory, not a constant or the result of a computation.  Variables are the most common lvalue. <br /> <br />
+
+The compound assignment operators are right associative.  In C, there are nine compound assignment operators: <br />
++ +=
++ -=
++ *=
++ /=
++ %=
++ ~=
++ &=
++ ^=
++ |=
+
+
