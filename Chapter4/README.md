@@ -10,6 +10,6 @@ The behavior described is Implementation-Defined Behavior
 ----
 <br />
 C uses operator precedence rules to resolve the potential ambiguity of expressions with more than one operator.  The arithmetic operators have the following relative precedence:<br />
-Highest: <space><space><space><space> + - (unary) <br />
+Highest: <t/> + - (unary) <br />
 <\t> * / %  <br />
-Lowest:  <space><space><space><space> + - (binary) <br />
+Lowest:  <\t> + - (binary) <br />
