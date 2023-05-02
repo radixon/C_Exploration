@@ -33,3 +33,33 @@ The logical operators treat any nonzero operand as a true value and any zero ope
 + !expression returns the value 1 if expression has the value 0.
 + expression1 && expression2 returns the value 1 if the values of expression1 and expression2 are both nonzero.
 + expression1 || expression2 returns the value 1 if either expression1 or expression2 or both expression1 and expression2 has a nonzero value.
+
+## Section 5.2
+
+The if statement allows a program to choose between two alternatives by testing the value of an expression.
+```C
+if(expression)
+    statement;
+```
+
+The parentheses around the expression are mandatory.  The parentheses are part of the if statement, not part of the expression.  When an if statement is executed, the espression in the parentheses is evaluated.  If the value of the expression is nonzero, which C interprets as true, the statement after the parentheses is executed.<br />
+
+When an if statement controls two or more statements, a compound statement is formed.
+``C
+if(expression){
+  statement1;
+  statement2;
+  statement3;
+  }
+```
+Putting braces around a group a statements forces the compiler to treat the group as a single statement. <br /> <br />
+
+An if statement may have an else statement.
+```C
+if(expression)
+  statement1;
+else
+  statement2;
+```
+
+The statement that follows the word else is executed ifthe expression in parentheses returns 0 (false).
