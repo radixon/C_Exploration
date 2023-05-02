@@ -27,7 +27,7 @@ Symbol | Meaning
 --- | ---
 ! | logical negation
 && | logical and
-git config --global alias.cleanup "||" | logical or
+git config --global alias.cleanup "!||" | logical or
 
 The logical operators treat any nonzero operand as a true value and any zero operand as a false value.
 + !expression returns the value 1 if expression has the value 0.
