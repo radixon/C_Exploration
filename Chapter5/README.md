@@ -27,7 +27,7 @@ Symbol | Meaning
 --- | ---
 ! | logical negation
 && | logical and
-U+23D0 (U+23D0)  | logical or
+&#124;&#124;  | logical or
 
 The logical operators treat any nonzero operand as a true value and any zero operand as a false value.
 + !expression returns the value 1 if expression has the value 0.
