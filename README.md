@@ -1,6 +1,5 @@
 # C_Exploration
-## C Programming: A Modern Approach Second Edition
-## K.N. King
+## C Programming: A Modern Approach Second Edition ~ K.N. King
 
 
 ## Chapter 2 - C FUNDAMENTALS
