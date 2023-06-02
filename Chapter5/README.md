@@ -78,6 +78,7 @@ The conditional operator consists of two symbols (? and :)
 expression1 ? expression2 : expression3
 ```
 The condition expression should be read "if expression1 then expression2 else expression3."
+![conditionalExpression](https://github.com/radixon/C_Exploration/assets/59415488/711e863f-0851-4dd0-89a1-b2377a408b83)
 
 
 ## Section 5.3
