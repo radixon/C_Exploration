@@ -72,6 +72,10 @@ if(condition){
 else
     statement;
 ```
+![ifElse](https://github.com/radixon/C_Exploration/assets/59415488/def13397-94cd-41f3-a23c-dd142ee35e11)
+
+<br /><br />
+
 
 The conditional operator consists of two symbols (? and :)
 ```C
