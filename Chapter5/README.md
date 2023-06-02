@@ -62,4 +62,35 @@ else
   statement2;
 ```
 
-The statement that follows the word else is executed ifthe expression in parentheses returns 0 (false).
+The statement that follows the word else is executed if the expression in parentheses returns 0 (false).  Both statements end with a semicolon.  There are no restrictions on the kind of statements that appear inside an if statement.  When if statements are nested, C follows the rule that an else clause belongs to the nearest if statement that hasn't been paired with an else.  Thus, adding braces to statements ensures the compiler operates instructions in an explicit order.
+
+```C
+if(condition){
+    if(condition)
+        statement;
+}
+else
+    statement;
+```
+
+The conditional operator consists of two symbols (? and :)
+```C
+expression1 ? expression2 : expression3
+```
+The condition expression should be read "if expression1 then expression2 else expression3."
+
+
+## Section 5.3
+
+As an alternative to the cascaded if statement, C provides the switch statement.  A switch tatement is often faster than if statements, especially when there are several cases.
+
+```C
+switch(expression){
+    case constant-expression : statements
+    ...
+    case constant-expression : statements
+    default : statements
+}
+```
+
+Duplicate case labels aren't allowed.  The order of the cases does not matter.  Only one constant expression may foolow the word case; however, sever case labels may preced the same group of statements.  There is not a way to write a case label that specifies a range of values.  A default case is not required.
