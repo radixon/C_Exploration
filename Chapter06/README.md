@@ -1,0 +1,1 @@
+A loop is a statement whose job is to repeatedly execute the loop body.  In C, every loop has a controlling expression.  Each iteration of the loop, the controlling expression is evaluated.  The loop continues to iterate as long as the controlling expression returns true.
