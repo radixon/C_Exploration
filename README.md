@@ -27,3 +27,10 @@
 + SECTION 5.1 - Logical Expressions
 + SECTION 5.2 - The if Statement
 + SECTION 5.3 - The switch Statement
+
+## Chapter 6 - LOOPS
++ SECTION 6.1 - The while Statement
++ SECTION 6.2 - The do Statement
++ SECTION 6.3 - The for Statement
++ SECTION 6.4 - Exiting from a Loop
++ SECTION 6.5 - The Null Statement
